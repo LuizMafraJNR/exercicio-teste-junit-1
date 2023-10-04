@@ -1,3 +1,5 @@
+package Pessoa;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class PessoaTest {
@@ -29,6 +31,6 @@ class PessoaTest {
     @org.junit.jupiter.api.Test
     void testToString() {
         Pessoa pessoa = new Pessoa("João", 30);
-        assertEquals("Pessoa{nome='João', idade=30}", pessoa.toString());
+        assertEquals("Pessoa.Pessoa{nome='João', idade=30}", pessoa.toString());
     }
 }

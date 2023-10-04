@@ -1,3 +1,5 @@
+package Pessoa;
+
 public class Pessoa {
     private String nome;
     private int idade;
@@ -25,7 +27,7 @@ public class Pessoa {
 
     @Override
     public String toString() {
-        return "Pessoa{" +
+        return "Pessoa.Pessoa{" +
                 "nome='" + nome + '\'' +
                 ", idade=" + idade +
                 '}';
